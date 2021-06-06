@@ -14,7 +14,8 @@
     "graphql": "15.3.0",
     "graphql-request": "3.1.0",
     "nuxt": "^2.15.3",
-    "particles.vue": "^2.10.0"
+    "particles.vue": "^2.10.0",
+    "simple-analytics-vue": "^1.1.5"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
