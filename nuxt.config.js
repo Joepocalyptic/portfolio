@@ -23,7 +23,8 @@ export default {
       { rel: 'stylesheet', href: "https://use.typekit.net/lhw0pfg.css"}
     ],
     script: [
-      { src: 'https://kit.fontawesome.com/6a750c33f5.js', crossorigin: 'anonymous' }
+      { src: 'https://kit.fontawesome.com/6a750c33f5.js', crossorigin: 'anonymous' },
+      { src: 'https://analytics.joeypereira.dev/js/plausible.js', defer: true, async: true, "data-domain": "joeypereira.dev"}
     ]
   },
 
@@ -36,7 +37,7 @@ export default {
   plugins: [
     '~/plugins/particles.js',
     '~/plugins/graphcms.js',
-    { src: '~/plugins/simple-analytics.js', ssr: false }
+    // SimplyAnalytics: { src: '~/plugins/simple-analytics.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
