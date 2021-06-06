@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    { "source": "/youtube", "destination": "https://www.youtube.com/channel/UCXjSv6BXXTkdIzhJi2DhiTQ" },
+    { "source": "/yt", "destination": "https://www.youtube.com/channel/UCXjSv6BXXTkdIzhJi2DhiTQ" },
+    { "source": "/github", "destination": "https://github.com/Joepocalyptic" },
+    { "source": "/gh", "destination": "https://github.com/Joepocalyptic" },
+    { "source": "/discord", "destination": "https://discord.gg/XmPhseX" },
+    { "source": "/steam", "destination": "https://steamcommunity.com/id/Joepocalypse" },
+    { "source": "/twitch", "destination": "https://www.twitch.tv/joepocalypse_" }
+  ]
+}

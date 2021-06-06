@@ -1,0 +1,16 @@
+.__layout, __nuxt {
+  height: 100%;
+}
+
+body {
+  background-color: #01685E;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.25s ease;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
