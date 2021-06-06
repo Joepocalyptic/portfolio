@@ -10,7 +10,7 @@
         <h1 class="h-full link-underline flex items-center text-2xl whitespace-nowrap">JOEY PEREIRA</h1>
       </NuxtLink>
     </div>
-    <div class="nav-right text-2xl flex items-center hidden sm:flex">
+    <div class="nav-right text-2xl flex items-center hidden md:flex">
       <NuxtLink to="/about" class="link-underline inline-block relative flex items-center mr-2">ABOUT</NuxtLink>
       <NuxtLink to="/work" class="link-underline inline-block relative flex items-center mx-2">WORK</NuxtLink>
       <NuxtLink to="/contact" class="link-underline inline-block relative flex items-center ml-2">CONTACT</NuxtLink>
