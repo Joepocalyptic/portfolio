@@ -10,17 +10,17 @@
         <h1 class="h-full link-underline flex items-center text-2xl whitespace-nowrap">JOEY PEREIRA</h1>
       </NuxtLink>
     </div>
-    <div class="nav-right text-2xl flex items-center hidden md:flex">
+    <div class="nav-right text-2xl items-center hidden md:flex">
       <NuxtLink to="/about" class="link-underline inline-block relative flex items-center mr-2">ABOUT</NuxtLink>
       <NuxtLink to="/work" class="link-underline inline-block relative flex items-center mx-2">WORK</NuxtLink>
       <NuxtLink to="/contact" class="link-underline inline-block relative flex items-center ml-2">CONTACT</NuxtLink>
       <div class="divider mx-4 bg-gray-title"></div>
       <NuxtLink to="/blog" class="link-underline inline-block relative flex items-center">BLOG</NuxtLink>
     </div>
-    <div class="nav-right text-2xl flex items-center flex md:hidden">
+    <div class="nav-right text-2xl items-center flex md:hidden">
       <button class="fas fa-bars fa-2x" @click="expand()"></button>
       <div id="nav-mobile" :class="{'nav-active': expanded}"
-           class="opacity-0 absolute top-20 left-0 bg-black bg-opacity-50 w-screen flex flex-col py-4 items-center px-7 lg:px-10">
+           class="opacity-0 absolute top-20 left-0 bg-black bg-opacity-50 w-screen hidden flex-col py-4 items-center px-7 lg:px-10">
         <NuxtLink to="/about" class="inline-block relative flex items-center mt-2">ABOUT</NuxtLink>
         <NuxtLink to="/work" class="inline-block relative flex items-center mt-2">WORK</NuxtLink>
         <NuxtLink to="/contact" class="inline-block relative flex items-center mt-2">CONTACT</NuxtLink>
@@ -47,9 +47,7 @@ export default Vue.extend({
   },
   methods: {
     expand() {
-      console.log("expanding")
       this.expanded = !this.expanded
-      console.log(this.expanded)
     }
   }
 })
@@ -61,6 +59,7 @@ export default Vue.extend({
 }
 
 .nav-active {
+  display: flex !important;
   opacity: 100;
   transition: 0.2s all;
 }
