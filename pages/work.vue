@@ -5,7 +5,7 @@
     </h2>
     <div class="w-screen bg-gray-background px-3 md:px-7 lg:px-10 py-5 text-gray-title
                 text-xl sm:text-3xl md:text-4xl lg:text-4xl md:px-10 lg:px-20" style="min-height: 60vh;">
-      <nav class="flex justify-center lg:justify-start mr-3 lg:mr-0">
+      <nav class="flex justify-center lg:justify-start ">
         <ul class="subnav flex bg-gray-background py-2">
           <li class="flex py-2">
             <NuxtLink to="/work/desktop" class="mx-2 text-center sm:text-left">
@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <hr class="rule border-none my-4 mr-3 lg:mr-0">
+      <hr class="rule border-none my-4 ">
       <NuxtChild />
     </div>
   </div>

@@ -6,7 +6,7 @@
     <div class="w-screen bg-gray-background px-3 md:px-7 lg:px-10 py-5 text-gray-title
                 text-xl sm:text-3xl md:text-4xl lg:text-4xl md:px-10 lg:px-20" style="min-height: 60vh;">
       <div class="flex w-full">
-        <div class="flex-1 mr-3 lg:mr-0">
+        <div class="flex-1 ">
           <h2 class="font-content-heading">Hello there!</h2>
           <hr class="rule border-none my-4">
           <img src="/img/logo-classic.png" alt="My Logo" class="lg:hidden float-right ml-7 h-40 md:h-80 mx-auto">
@@ -23,7 +23,7 @@
         <img src="/img/logo-classic.png" alt="My Logo" class="hidden lg:block h-80 ml-10">
       </div>
       <h2 class="font-content-heading text-4xl md:text-6xl mt-16 mb-3">Skills</h2>
-      <nav class="flex justify-center lg:justify-start mr-3 lg:mr-0">
+      <nav class="flex justify-center lg:justify-start ">
         <ul class="subnav flex bg-gray-background py-2">
           <li class="flex py-2">
             <NuxtLink to="/about/desktop" class="mx-2 text-center sm:text-left">
@@ -42,7 +42,7 @@
           </li>
         </ul>
       </nav>
-      <hr class="rule border-none my-4 mr-3 lg:mr-0">
+      <hr class="rule border-none my-4 ">
       <NuxtChild class="mb-10"/>
     </div>
   </div>

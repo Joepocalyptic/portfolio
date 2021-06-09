@@ -25,7 +25,7 @@
           <h4 class="text-lg md:text-xl xl:text-2xl font-content mt-2">Joepocalypse#0001</h4>
         </a>
       </div>
-      <div class="flex h-0.5 mr-3 lg:mr-10 my-16 lg:my-0 lg:mx-10 items-center lg:flex-col lg:h-auto lg:w-0.5">
+      <div class="flex h-0.5 my-16 lg:my-0 lg:mx-10 items-center lg:flex-col lg:h-auto lg:w-0.5">
         <div class="flex-1 bg-accent-orange h-full lg:h-auto lg:w-full">
         </div>
         <span class="mx-5 lg:mx-0 lg:my-5 font-heading text-gray-title select-none">OR</span>

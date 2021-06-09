@@ -19,10 +19,10 @@
                 <h4>{{page.publishedAt}}</h4>
               </div>
             </div>
-            <div class="my-5 bg-accent-teal h-0.5 mr-3 lg:mr-0 w-1/3"></div>
+            <div class="my-5 bg-accent-teal h-0.5  w-1/3"></div>
             <p class="font-content mt-6 text-lg lg:text-xl">{{page.excerpt}}</p>
           </NuxtLink>
-          <div v-if="graphcms.pages.indexOf(page) !== graphcms.pages.length-1" class="my-10 bg-accent-orange h-0.5 mr-3 lg:mr-0 w-1/2"></div>
+          <div v-if="graphcms.pages.indexOf(page) !== graphcms.pages.length-1" class="my-10 bg-accent-orange h-0.5  w-1/2"></div>
         </div>
       </div>
     </div>
