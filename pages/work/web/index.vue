@@ -1,6 +1,12 @@
 <template>
   <div class="w-full">
     <div class="w-full flex flex-wrap justify-center mt-10 mb-10">
+      <NuxtLink to="/work/web/tmsa"
+                class="relative bg-gray-accent project-block rounded-3xl my-3 lg:my-0 mx-3 mr-6 lg:mx-0 bg-cover bg-center bg-no-repeat lg:mr-16"
+                style="background-image: url('/work-img/montessori.jpg');">
+        <div class="absolute bottom-0 left-0 w-full h-20 overflow-hidden rounded-b-3xl bg-gray-accent
+                    text-3xl flex items-center justify-center font-content-heading">The Montessori School of the Angels</div>
+      </NuxtLink>
       <NuxtLink to="/work/web/shiawa"
                 class="relative bg-gray-accent project-block rounded-3xl my-3 lg:my-0 mx-3 mr-6 lg:mx-0 bg-cover bg-center bg-no-repeat lg:mr-16"
                 style="background-image: url('/work-img/shiawa.jpg');">
